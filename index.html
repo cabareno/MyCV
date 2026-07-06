@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Carolina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar">
+    <button onclick="irA('Experiencia')">Experiencia</button>
+    <button onclick="irA('Educacion')">Educación</button>
+    <button onclick="irA('Habilidades')">Habilidades</button>
+    <button onclick="irA('Proyectos')">Proyectos</button>
+</nav>
+
+<section class="hero">
+    
+    <div class="hero-contenido">
+        
+        <img src="5.jpeg" alt="Mi foto" class="foto-grande">
+
+        <div class="texto">
+            <h1>Hola, soy Carolina</h1>
+            <h2>Data Analyst | Data Science</h2>
+    <p>Ingeniera Industrial y Especialista en Analítica y Ciencia de Datos con 5 años de experiencia en el sector financiero, 
+        enfocada en el análisis de datos para la toma de decisiones estratégicas. </p>
+    <p>He liderado la construcción de dashboards y la automatización de procesos, logrando reducir hasta en un 40% los tiempos 
+        de ejecución y generando insights de alto valor para el negocio.</p>
+    <p>Trabajo con Python, SQL, PySpark y Power BI para generar insights de alto impacto.</p>
+         </div>
+
+    </div>
+
+    </section>
+<section id="Experiencia" class="seccion">
+    <button class="volver" onclick="volverInicio()">← Volver</button>
+    <h2>Experiencia</h2>
+    <div class="item">
+        <h3>DATA SPECIALIST ANALYST I</h3>
+        <p>BBVA Colombia | 2024 - Actualidad</p>
+        <ul>
+            <li>Gestión de Big Data</li>
+            <li>Liderazgo Técnico e Innovación</li>
+            <li>Automatización de Procesos</li>
+        </ul>
+        <h3>ANALISTA DE DATOS</h3>
+        <p>FINANZAUTO| 2023 - 2024</p>
+        <ul>
+            <li>Automatización y trabajo en equipo</li>
+            <li>Visualización y KPIs</li>
+        </ul>
+        <h3>ANALISTA III</h3>
+        <p>Banco AV VillAs | 2021 - 2023</p>
+        <ul>
+            <li>Reporting de Alto Impacto</li>
+            <li>Modelamiento Analítico</li>
+        </ul>
+        <h3>DATAMARSHAL</h3>
+        <p>Bureau Veritas | 2017 - 2021</p>
+    </div>
+</section>
+
+<section id="Educacion" class="seccion">
+    <button class="volver" onclick="volverInicio()">← Volver</button>
+    <h2>Educación</h2>
+    <p>ESPECIALIZACIÓN EN ANALÍTICA Y CIENCIA DE DATOS - Universidad de Antioquia | 2023</p>
+     <ul>
+            <li>Trabajo de grado: Modelo Predictivo de Clientes en Mora</li>
+    </ul>
+    <p>INGENIERA INDUSTRIAL - Universidad Pedagogica y Tecnologica de Colombia | 2015</p>
+</section>
+
+<section id="Habilidades" class="seccion">
+    <button class="volver" onclick="volverInicio()">← Volver</button>
+    <h2>Habilidades</h2>
+    <ul class="skills">
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Power BI</li>
+        <li>Excel</li>
+        <li>AWS</li>
+    </ul>
+</section>
+
+<section id="Proyectos" class="seccion">
+    <button class="volver" onclick="volverInicio()">← Volver</button>
+
+    <h2>Proyectos</h2>
+
+    <div class="contenedor-proyectos">
+
+        <div class="card">
+            <h3>Modelo Predictivo de Mora</h3>
+            <p>Modelo de machine learning para predecir clientes en riesgo de mora.</p>
+            <p><strong>Tecnologías:</strong> Python, Scikit-learn, Pandas</p>
+            <a href="https://github.com/cabareno/Loan_Behavior" target="_blank">Ver proyecto</a>
+        </div>
+
+        <div class="card">
+             <h3>Ejercicio Marketing: Cargue, Limpieza y Transformación</h3>
+             <p>Procesamiento de datos provenientes de múltiples fuentes de publicidad.</p>
+             <p><strong>Tecnologías:</strong> Colab, SQL, Python, PySpark</p>
+
+             <iframe width="100%" height="200"
+                src="https://www.youtube.com/embed/Gmvqm4eY0GA"
+                frameborder="0" allowfullscreen>
+             </iframe>
+
+             <a href="https://github.com/cabareno/Marketing_exercise" target="_blank">
+                Ver código
+             </a>
+</div>
+
+    </div>
+</section>
+
+<footer>
+    <p>📧 carolina.barenoa@udea.edu.com | 📱 +57 3178607918</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
