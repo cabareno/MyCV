@@ -150,3 +150,41 @@ section {
 .card a:hover {
     background: #b48482;
 }
+
+#Educacion {
+  margin-top: 40px;
+}
+
+.edu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edu-item {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 5px solid #4CAF50;
+}
+
+.edu-item h3 {
+  margin: 0;
+}
+
+.edu-inst {
+  display: block;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.edu-year {
+  display: block;
+  font-size: 0.9em;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.edu-desc {
+  margin-top: 10px;
+}
